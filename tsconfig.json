@@ -11,7 +11,9 @@
     "baseUrl": "./",
     "paths": {
       "*": ["node_modules/*"]
-    }
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
