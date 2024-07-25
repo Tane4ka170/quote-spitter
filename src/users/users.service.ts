@@ -7,4 +7,8 @@ export class UsersService {
   async findOne(username: string): Promise<any | undefined> {
     return this.users.find((user) => user.username === username);
   }
+
+  async findAll(): Promise<any[]> {
+    return this.users;
+  }
 }
